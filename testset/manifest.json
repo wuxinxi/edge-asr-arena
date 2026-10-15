@@ -1,0 +1,109 @@
+{
+  "dimensions": [
+    {
+      "id": "01-mandarin",
+      "name": "中文普通话识别",
+      "description": "标准普通话、朗读与口语对照",
+      "items": [
+        {
+          "id": "mandarin_001",
+          "filename": "01-mandarin/sample_mandarin_01.wav",
+          "reference_text": "今天的天气真不错，适合出门散步和运动。",
+          "language": "zh",
+          "snr": 30,
+          "speaker": "spk_01",
+          "duration_ms": 4360
+        },
+        {
+          "id": "mandarin_002",
+          "filename": "01-mandarin/sample_mandarin_02.wav",
+          "reference_text": "请在明天下午三点前把项目的最终报告提交给项目经理。",
+          "language": "zh",
+          "snr": 30,
+          "speaker": "spk_02",
+          "duration_ms": 5820
+        }
+      ]
+    },
+    {
+      "id": "02-english",
+      "name": "英文识别",
+      "description": "母语发音、连读与语速变化",
+      "items": [
+        {
+          "id": "english_001",
+          "filename": "02-english/sample_english_01.wav",
+          "reference_text": "the quick brown fox jumps over the lazy dog",
+          "language": "en",
+          "snr": 30,
+          "speaker": "spk_en_01",
+          "duration_ms": 2670
+        }
+      ]
+    },
+    {
+      "id": "04-code-switch",
+      "name": "中英混读 Code-Switching",
+      "description": "技术词汇、日常混读",
+      "items": [
+        {
+          "id": "cs_001",
+          "filename": "04-code-switch/sample_cs_01.wav",
+          "reference_text": "请把这个 PR 合并到 main 分支，然后跑一下 build 测试。",
+          "language": "zh",
+          "snr": 25,
+          "speaker": "spk_01",
+          "duration_ms": 6030
+        }
+      ]
+    },
+    {
+      "id": "06-noise",
+      "name": "吵杂与噪声抗干扰",
+      "description": "咖啡馆、街道与风噪背景",
+      "items": [
+        {
+          "id": "noise_001",
+          "filename": "06-noise/sample_noise_01.wav",
+          "reference_text": "我们在嘈杂的咖啡厅里讨论下个季度的产品研发规划。",
+          "language": "zh",
+          "snr": 10,
+          "speaker": "spk_01",
+          "duration_ms": 5070
+        }
+      ]
+    },
+    {
+      "id": "08-numbers",
+      "name": "数字/编号/专有名词",
+      "description": "手机号、金额、日期、字母数字混读",
+      "items": [
+        {
+          "id": "numbers_001",
+          "filename": "08-numbers/sample_numbers_01.wav",
+          "reference_text": "我的联系电话是13800138000，订单编号为ABC20261013。",
+          "language": "zh",
+          "snr": 30,
+          "speaker": "spk_01",
+          "duration_ms": 11510
+        }
+      ]
+    },
+    {
+      "id": "09-emotion",
+      "name": "情感与特殊发音",
+      "description": "笑声、叹气、快速语流与情绪起伏",
+      "items": [
+        {
+          "id": "emotion_001",
+          "filename": "09-emotion/sample_emotion_01.wav",
+          "reference_text": "哈哈，太好笑了，我完全没想到结果会是这样！",
+          "language": "zh",
+          "snr": 30,
+          "speaker": "spk_01",
+          "duration_ms": 5020
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+huggingface_hub>=0.23.0
+modelscope>=1.14.0
+rich>=13.7.0
+tqdm>=4.66.0
